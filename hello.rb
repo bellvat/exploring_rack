@@ -12,10 +12,10 @@ class MyApp
 
   def layout(content)
     %{<!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
       <head> 
-             <meta charset="utf-8">
-             <title>Welcome to your Rack!</title>
+         <meta charset="utf-8">
+         <title>Welcome to your Rack!</title>
       </head>
       <body>
         <h1> Welcome to your App! </h1>
@@ -23,7 +23,6 @@ class MyApp
       </body>
      </html>}
   end 
-
 end
 
 class MyApp::Rack
